@@ -39,22 +39,23 @@ Installation:
 
 Step 1: clone the repo
 
-   ``` $ sudo git clone https://github.com/shimuldas72/yii2_demo.git ```
+``` $ sudo git clone https://github.com/shimuldas72/yii2_demo.git ```
 
 Step 2: update composer
 
-    ``` $ sudo composer update ```
+``` $ sudo composer update ```
 
 Step 3:  set permission for directory `web/assets` and `runtime`
   
-   ``` $ sudo chmod -R 777 web/assets ```
-   ``` $ sudo chmod -R 777 runtime/ ```
+``` $ sudo chmod -R 777 web/assets ```
+
+``` $ sudo chmod -R 777 runtime/ ```
 
 Step 4: create database and import `demo_db.sql` file from `DB` directory
 
 Step 5: Update database name, username and password 
 
-    ``` $ sudo nano config/db.php ```
+``` $ sudo nano config/db.php ```
 
 Step 6: Run the site in your browser `http://localhost/yii2_demo/web`
 
